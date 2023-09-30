@@ -906,3 +906,32 @@ fill: var(--OCEAN, #404BBF);
   color: #4D5AE5;
 }
 
+/*MOBILE MENU MODAL WINDOW*/
+.menu-container {
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+position: fixed;
+top: 0;
+left: 0;
+padding: 72px 16px 40px;
+}
+.mobile-menu-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  min-width: 24px;
+  min-height: 24px;
+}
+.mobile-menu-icon
+.mobile-menu-list
+.mobile-menu-item
+.mobile-menu-link-a
+.mobile-menu-link
+.mobile-contacts
+.mobilecontacts-item
+.mobile-contacts-link
+.mobile-socials
+.mobile-socials-ite
+.mobile-socials-link
+.mobile-socials-icon
