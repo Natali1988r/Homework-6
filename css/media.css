@@ -22,8 +22,8 @@
  .header-nav{
     display: flex;
     align-items: center;
-}
-.address-list {
+ }
+ .address-list {
     display: block;
    font-style: normal;
    }
@@ -35,9 +35,19 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: 12px;
-      
-    
-}
+        
+ }
+ .address-info {
+    padding: 16px 0;
+ }
+ .a-link {
+    color: var(--SLATE, #434455);
+  font-size: 16px;;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  /*transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+   }
 }
 /*section header desktop 1158  */
 @media screen and (min-width: 1158px) {
@@ -60,7 +70,7 @@
         margin: 0 auto;
         padding: 0 15px;
  }
- }
+ 
  .accent {
   color: #2E2F42;
 }
@@ -79,4 +89,21 @@
     margin: 0%;
     align-items: flex-start;
     gap: 40px;
+}
+.address-info {
+    padding: 24px 0;
+}
+.a-link:hover,.address-link:focus {
+    color: #404bbf;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     text-decoration: underline;
+    }
+ .a-link {
+        color: var(--SLATE, #434455);
+      font-size: 16px;;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
 }
