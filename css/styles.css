@@ -148,7 +148,7 @@ display: none;
 
 
   .address-list {
-   display: inline-block;
+   display:none;
   font-style: normal;
   }
  .address-container {
