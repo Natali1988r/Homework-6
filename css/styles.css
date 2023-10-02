@@ -87,7 +87,7 @@ align-items: center;
    justify-content: center;
  }
  .nav-list-item {
-
+display: none;
  }
  .nav-link {
    color: #404bbf;
