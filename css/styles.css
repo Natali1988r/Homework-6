@@ -42,10 +42,10 @@
 }
 
 .container-header-inner {
- display: flex;
+ display: none;
  justify-content: space-between;
  align-items: center;
- width: 1158px; 
+ width: 320px; 
  margin: 0 auto;
  padding: 0 15px;
  
@@ -80,7 +80,7 @@ align-items: center;
 
  .nav-list {
    list-style-type: none;
-   display: flex;
+   display: none;
    gap: 40px;
    align-items: flex-start;
    flex-grow: 1;
@@ -152,7 +152,7 @@ align-items: center;
   font-style: normal;
   }
  .address-container {
-   display: flex;
+   display: none;
    list-style-type: none;
    margin: 0%;
    align-items: flex-start;
