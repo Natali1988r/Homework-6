@@ -1,7 +1,7 @@
 /* descktop */
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
   }
   .header {
@@ -173,25 +173,17 @@
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
     ),
-    url(../images/people-office.jpg);    
+    url(../images/people-office.jpg);  
+  
 }
-.effect-title {
-  font-weight: 500;
-  font-size: 56px;
-  max-width: 496px; 
-  margin-bottom: 48px;
-}
-/* section 2 */
 
-.our {
-  padding: 120px 0;
- }
 }
 
 /* pl- adapt-*/
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    max-width: 768px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -248,28 +240,18 @@
  .effective-section {
   background: #2E2F42;
   display: flex;
-  padding: 112px 136px;
+  padding: 72px 0;
   border-radius: 0%;
   flex-direction: column;
   justify-content: center;
-  width: 768px;
+  max-width: 768px;
   background-image: linear-gradient(
     to bottom,
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
     ),
-    url(../images-2/lbt/Dark-bg-pl.jpg);  
+    url(../images-2/lbt/Dark-bg-pl.jpg);
+    
+    
 }
-.effect-title {
-max-width: 496px; 
-font-weight: 700;
-line-height: 1.07; 
-font-size: 56px;
-margin-bottom: 36px;
-}
-/* section 2 */
-
-.our {
-  padding: 96px 0;
- }
 }
