@@ -722,6 +722,7 @@ background-color: #404bbf;
 }
 
 .backdrop.is-open {
+  display: flex;
  opacity: 1;
  visibility: visible;
  pointer-events: auto;
@@ -847,17 +848,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  width: 100%;
  height: 120px;
  padding: 8px 16px;
- color: rgba(46, 47, 66, 0.4);
- line-height: 1.17;
- letter-spacing: 0.04em;
- border: 1px solid rgba(46, 47, 66, 0.4);
- border-radius: 4px;
- background-color: transparent;
- transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  resize: none;
- outline: transparent;
-
-
 }
 .textarea-modal:focus {
 border-color: #4D5AE5;
@@ -867,6 +858,8 @@ border-color: #4D5AE5;
 }
 .modal-privacy {
  margin-bottom: 24px;
+ display: flex;
+ flex-direction: row;
 }
 .checkbox-input:checked + .privacy-label > .text-policy {
  background-color: #404BBF;
@@ -877,7 +870,6 @@ border-color: #4D5AE5;
 .privacy-label {
  color: #8e8f99;
  height: 16px;
-   font-family: Roboto;
    font-size: 12px;
    font-weight: 400;
    line-height: 1.17;
@@ -895,7 +887,8 @@ border-color: #4D5AE5;
  border: 1px solid rgba(46, 47, 66, 0.4);
  border-radius: 2px;
  fill: transparent;
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+ border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  margin-right: 8px;
  fill: transparent;
 }
