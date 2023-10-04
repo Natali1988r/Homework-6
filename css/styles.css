@@ -30,8 +30,10 @@
  }
  .container {
   max-width: 320px;
-  margin: 0 auto;
-  padding: 0% 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
     /* header*/
 .header {
@@ -599,7 +601,10 @@ display: flex;
  gap: 16px;
  }
 .social-media-list{
+  width: 40px;
+ height: 40px;
 }
+
 .social-media-link{
 display: flex;
  width: 100%;
