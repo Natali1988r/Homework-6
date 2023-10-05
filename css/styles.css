@@ -874,6 +874,7 @@ border-color: #4D5AE5;
  border-color: #404BBF;
  }
 .privacy-label {
+  display: flex;
  color: #8e8f99;
  height: 16px;
    font-size: 12px;
