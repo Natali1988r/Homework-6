@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    width: 1158px;
    padding-left: 15px;
    padding-right: 15px;
   }
@@ -148,7 +148,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
-    max-width: 768px;
+    width: 768px;
   }
   .header {
     max-width: 768px;
@@ -183,8 +183,7 @@
     flex-direction: column;
   }
   .address-info {
-    padding: 16px 0;
-    column-gap: 12px;
+ 
   }
 
   .a-link {
