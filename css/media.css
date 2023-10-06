@@ -174,12 +174,11 @@
   .container-header-inner {
     width: 1158px; 
   margin: 0 auto;
-  
     }
   
   
  .address-info {
-   padding: 24px 0;
+  /* padding: 24px 0;*/
  }  
 
   .logo {
@@ -189,10 +188,11 @@
     display: flex;
     flex-grow: 1;
   }
-
+  .nav-list-item {
+   flex-direction: row; 
+  }
   .address-container {
     gap: 40px;
-    flex-direction: row;
     display: flex;
   }
 
@@ -212,6 +212,9 @@
       ),
       url(../images/people-office.jpg);
       width: 100%;
+  }
+  .effect-title {
+   
   }
 
   .our {
@@ -263,14 +266,16 @@
   }
 
   .footer-section {
-    width: 100%;
-    max-width: 1440px;
-    margin: auto;
+   padding: 100px 0;
+   width: 1440px;
+   margin: auto;
     
   }
 
   .f-flex {
-   
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .position-info {
     margin-right: 120px;
