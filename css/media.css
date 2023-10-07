@@ -168,12 +168,13 @@
    padding-left: 15px;
    padding-right: 15px;
   }
-@media screen  and (min-width: 1158px) {
+}
+ @media screen  and (min-width: 1158px) {
   .header {
     max-width: 1158px;
     width: 1440px;
+    flex-direction: row;
   }
-}
 
  .address-info {
   padding: 24px 0;
@@ -187,11 +188,16 @@
     flex-grow: 1;
   }
   .nav-list-item {
-   flex-direction: row; 
+   
   }
+  .address-list {
+    display:inline-block;
+   font-style: normal;
+   }
   .address-container {
     gap: 40px;
     display: flex;
+    flex-direction: row; 
   }
 
   .button-contacts {
