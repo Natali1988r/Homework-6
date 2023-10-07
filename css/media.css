@@ -90,6 +90,11 @@
       ),
       url(../images-2/lbt/Dark-bg-pl.jpg);
   }
+  .effect-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+  }
 
   .button-primary {
   }
