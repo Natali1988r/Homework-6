@@ -499,7 +499,7 @@ display: block;
 }
 
 .photo-img > img {
-  max-height: 280px;
+  /*max-width: 280px;*/
   object-fit: cover;
 }
 .text-overlay {
