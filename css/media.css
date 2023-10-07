@@ -170,6 +170,7 @@
   }
 @media screen  and (min-width: 1158px) {
   .header {
+    max-width: 1158px;
     width: 1440px;
   }
 }
@@ -208,7 +209,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-      width: 100%;
+      width: 1158px;
   }
   .effect-title {
    
@@ -271,7 +272,7 @@
 
   .f-flex {
     align-items: baseline;
-    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
   }
   .position-info {
