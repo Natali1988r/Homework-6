@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (min-width: 768px) /*and (max-width: 1157px) */{
+@media screen and (min-width: 768px) {
   .container {
     width: 768px;
     max-width: 768px;
@@ -209,7 +209,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-      width: 1158px;
+      width: 100%;
   }
   .effect-title {
    
@@ -273,6 +273,7 @@
   .f-flex {
     align-items: baseline;
     flex-wrap: nowrap;
+    gap: 0;
     
   }
   .position-info {
