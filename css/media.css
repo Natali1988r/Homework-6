@@ -121,9 +121,9 @@
     width: calc((100% - 24px) / 2);
   }
 
-  .photo-img {
+  /*.photo-img {
     height: 300px;
-    width: 356px;
+    width: 356px;*/
   }
 /*footer section*/
   .footer-section {
@@ -282,9 +282,9 @@
     width: calc((100% - 48px) / 3);
   }
 
-  .photo-img {
+  /*.photo-img {
     width: 360px;
-    height: 300px;
+    height: 300px;*/
   }
 
   .footer-section {
